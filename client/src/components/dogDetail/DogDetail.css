@@ -1,0 +1,137 @@
+.contenedor-principal{
+    background-image: url("../../assest/fondoo.avif");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin:  0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 650px;
+}
+.detail-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btnn {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btnn:hover {
+    background-color: #3e8e41;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color:cadetblue;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+h5 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+}
+
+.contenedor-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
+/* .detail-img img{
+    height: 100vh;
+    width: 100%;
+}
+.detail-img{
+    height: 100vh;
+    width: 100%;
+} */
+
+/* .detail-info{
+    background-color: rgba(202, 165, 120, 0.739);
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   padding: 50px 0;
+
+} */
+
+/* .detail-info h2{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.detail-info h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(83, 81, 81);
+}
+
+.detail-info h5{
+    font-size: 20px;
+    color: brown;
+}
+.detail-info a{
+    justify-self: flex-start;
+}  */
